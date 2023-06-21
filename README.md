@@ -1,3 +1,3 @@
 # Cadastro.java.SQLite
-Descrição do trabalho 📃
-Usando o Android Studio, criar um cadastro básico que realiza a persistência dos dados com o SQLite conforme os materiais e exemplos vistos em aula, e realiza as operações de listar todos os registros, inserir registro, editar registro e apagar registro. O cadastro básico seguirá o modelo do CRUD apresentado em aula (com chave primária auto incrementável) e será sobre uma tabela definida pelo aluno, deverá usar layouts à escolha do aluno e deve conter 6 campos usando as seguintes views: • TextView (rótulo de texto) (obrigatório) • EditText (campo de texto) (obrigatório) • Check Box (botão de seleção) (opcional) • Spinner (caixa de seleção) (opcional) • Button (botão de ação) (obrigatório pode ser outro tipo de botão também)
+
+Usando o Android Studio, criar um cadastro básico que realiza a persistência dos dados com o SQLite conforme os materiais e exemplos vistos em aula, e realiza as operações de listar todos os registros, inserir registro, editar registro e apagar registro.
