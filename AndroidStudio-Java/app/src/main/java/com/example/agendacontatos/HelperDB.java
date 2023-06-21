@@ -13,7 +13,7 @@ public class HelperDB extends SQLiteOpenHelper {
     private static String DATABASE = "db_agenda";
     private static int VERSION = 1;
 
-    //chave primária composta :)
+    //chave primária composta 
     String[] tables = {
         "CREATE TABLE agenda(" +
             "nome TEXT," +
@@ -26,10 +26,10 @@ public class HelperDB extends SQLiteOpenHelper {
         super(context, DATABASE,null, VERSION);
     }
 
-    //metodo executa se o banco nao existir
+    
     @Override
     public void onCreate(SQLiteDatabase db) {
-        //é possivel somente criar uma tabela por execução
+        
         for (String table : tables) {
             db.execSQL(table);
         }
@@ -92,14 +92,5 @@ public class HelperDB extends SQLiteOpenHelper {
         return cursor;
     }
 
-    /*
-    public static Cursor select_by_primaryKey(String[] PK_NomeTel, Context context){
-        SQLiteDatabase  db = new HelperDB(context).getReadableDatabase();
-        String[] columns =  {"nome","telefone"};
-        Cursor cursor = null;
-        if(db != null) {
-             cursor = db.query("agenda", columns, "nome = ? and telefone = ?", PK_NomeTel, null, null, null);
-        }return cursor;
-    }
-    */
+  
 }

@@ -39,7 +39,7 @@ public class ActivityMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Inicializa os dados
+        //Inicia os dados
         rowid = new ArrayList<>();
         nomes = new ArrayList<>();
         telefones = new ArrayList<>();
@@ -84,10 +84,7 @@ public class ActivityMain extends AppCompatActivity {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.menu_deletar, menu);
         return super.onCreateOptionsMenu(menu);
-        /*
-            Para adicionar um menu ir botao Direito Res > New Android Resource Directory > Recource Type = Menu
-            Botao Direito na pasta Menu > New Menu Source File.
-        */
+      
     }
 
     @Override
@@ -141,11 +138,3 @@ public class ActivityMain extends AppCompatActivity {
     }
 }
 
-/*
-* Problemas e Solucoes:
-* startActivityForResult foi deprecated
-* solução: https://stackoverflow.com/questions/62671106/onactivityresult-method-is-deprecated-what-is-the-alternative
-*
-*
-*
-* */

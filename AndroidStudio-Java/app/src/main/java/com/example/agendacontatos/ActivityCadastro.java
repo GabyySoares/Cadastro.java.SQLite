@@ -111,9 +111,3 @@ public class ActivityCadastro extends AppCompatActivity {
     }
 }
 
-/*
-*   Problemas e Soluções:
-*   Ao abrir uma nova activity e voltar, a activity principal estava recriando(metodo Oncreate() ou recreate())
-    Solução: https://stackoverflow.com/questions/12276027/how-can-i-return-to-a-parent-activity-correctly/15933890#15933890
-             https://stackoverflow.com/questions/15559838/actionbar-up-navigation-recreates-parent-activity-instead-of-onresume
-**/
